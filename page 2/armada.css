@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.bg_div{
+    width: 100%;
+    height: 40px;
+    background-color: #482a69;
+}
+
+.bg_div_content{
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+    align-items: end;
+}
+
+.btnPurple {
+    color: white;
+    background-color: #482a69;
+    padding: 10px;
+  }
+
+.btnYellow {
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+    height: 30px;
+  }
+
+.nav_content{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    align-items: center;
+}
+
+ul {
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+li{
+    width: 130px;
+}
+
+/** header */
+
+.grid{
+    width: 70%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 23% 23% 20%;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 70px;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.img1{
+    width: 187px;
+    height: 187px;
+    background-image: url(./images/photo_2024-10-26_14-35-49.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 100px;
+}
+
+.img2{
+    width: 187px;
+    height: 187px;
+    background-image: url(./images/photo_2024-10-26_14-33-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 50px;
+}
+
+.img3{
+    width: 187px;
+    height: 397px;
+    background-image: url(./images/photo_2024-10-26_14-33-24.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img4{
+    width: 397px;
+    height: 187px;
+    background-image: url(./images/photo_2024-10-26_14-35-49.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    grid-column: 1/span 2;
+    margin-left: 100px;
+}
+
+.img5{
+    width: 187px;
+    height: 187px;
+    background-image: url(./images/photo_2024-10-26_14-33-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.purp_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(121, 0, 125, 0.54);
+}
+
+/** section */
+
+.card_content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.hov{
+    transition: 1s;
+}
+
+.hov:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** pre-footer */
+
+.email_box{
+    width: 700px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:3px 3px 9px 3px #666666;
+}
+
+.text_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pre-footer-div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/** footer */
+
+footer{
+    background-color: #333;
+}
+
+.footer_div{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.footer_card{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}

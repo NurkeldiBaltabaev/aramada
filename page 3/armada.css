@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.hov{
+    transition: 1s;
+}
+
+.hov:hover{
+    transform: scale(1.1);
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.bg_div{
+    width: 100%;
+    height: 40px;
+    background-color: #482a69;
+}
+
+.bg_div_content{
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+    align-items: end;
+}
+
+.btnPurple {
+    color: white;
+    background-color: #482a69;
+    padding: 10px;
+  }
+
+.btnYellow {
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+    height: 30px;
+  }
+
+.nav_content{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    align-items: center;
+}
+
+ul {
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+li{
+    width: 130px;
+}
+
+/** header */
+
+.img{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/photo_2024-10-26_16-04-16.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card_content1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.cards{
+    width: 250px;
+    height: 380px;
+    box-shadow:3px 3px 9px 3px #666666;
+    display: grid;
+    grid-template-rows: 70% 10% 10% 10%;
+    align-items: center;
+    gap: 4px;
+    transition: 1s;
+}
+
+/** section */
+
+.card_content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** pre-footer */
+
+.email_box{
+    width: 700px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:3px 3px 9px 3px #666666;
+}
+
+.text_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pre-footer-div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/** footer */
+
+footer{
+    background-color: #333;
+}
+
+.footer_div{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.footer_card{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}

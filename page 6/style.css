@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.hov1{
+    transition: 1s;
+}
+
+.hov1:hover{
+    color: orange;
+}
+
+.hov{
+    transition: 1s;
+}
+
+.hov:hover{
+    transform: scale(1.1);
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.bg_div{
+    width: 100%;
+    height: 40px;
+    background-color: #482a69;
+}
+
+.bg_div_content{
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+    align-items: end;
+}
+
+.btnPurple {
+    color: white;
+    background-color: #482a69;
+    padding: 10px;
+  }
+
+.btnYellow {
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+    height: 30px;
+  }
+
+.nav_content{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    align-items: center;
+}
+
+ul {
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+li{
+    width: 130px;
+}
+
+/** header */
+
+.images{
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/6314603063_5f47f00eb8_b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/photo_2024-10-26_14-33-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    background-image: url(./images/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/** section */
+
+.sec_img{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/photo_2024-10-26_14-33-07.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i{
+    cursor: pointer;
+    transition: 1s;
+}
+
+/** footer */
+
+footer{
+    margin-top: 60px;
+    background-color: #333;
+}
+
+.footer_div{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.footer_card{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}

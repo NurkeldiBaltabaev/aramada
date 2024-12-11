@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.bg_div{
+    width: 100%;
+    height: 40px;
+    background-color: #482a69;
+}
+
+.bg_div_content{
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr;
+    align-items: end;
+}
+
+.btnPurple {
+    color: white;
+    background-color: #482a69;
+    padding: 10px;
+  }
+
+.btnYellow {
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
+  }
+
+.nav_content{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    align-items: center;
+}
+
+ul {
+    color: #333;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+li{
+    width: 130px;
+}
+
+/** header */
+
+.dark_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+  
+header {
+    height: 700px;
+    background-image: url(./images/NYC_GettyImages-640006562.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header .header_content {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 700px;
+    align-items: center;
+}
+
+header .header_content_text {
+    display: grid;
+    grid-gap: 20px;
+    margin-left: 30px;
+}
+
+header .header_content_icons{
+    display: grid;
+    grid-gap: 70px;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: end;
+    margin-right: 30px;
+}
+
+/** section */
+
+.cards_content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.card{
+    width: 250px;
+    height: 380px;
+    box-shadow:3px 3px 9px 3px #666666;
+    display: grid;
+    grid-template-rows: 70% 10% 10% 10%;
+    align-items: center;
+    gap: 4px;
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+.hov{
+    transition: 1s;
+}
+
+.hov:hover{
+    transform: scale(1.1);
+}
+
+.card_content2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    gap: 15px;
+    margin-left: 100px;
+}
+
+.img1{
+    width: 250px;
+    height: 200px;
+    background-image: url(./images/photo_10_2024-10-25_19-32-46.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.img2{
+    width: 250px;
+    height: 200px;
+    background-image: url(./images/photo_1_2024-10-25_19-32-46.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.img3{
+    width: 250px;
+    height: 200px;
+    background-image: url(./images/NYC_GettyImages-640006562.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.img4{
+    width: 250px;
+    height: 200px;
+    background-image: url(./images/photo_5_2024-10-25_19-32-46.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.img5{
+    width: 250px;
+    height: 200px;
+    background-image: url(./images/photo_10_2024-10-25_19-32-46.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.img6{
+    width: 250px;
+    height: 200px;
+    background-image: url(./images/photo_1_2024-10-25_19-32-46.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.card_content3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_content4{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cards{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 1s;
+}
+
+.nike{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_content5{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards2{
+    width: 230px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/** pre-footer */
+
+.email_box{
+    width: 700px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:3px 3px 9px 3px #666666;
+}
+
+.text_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pre-footer-div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/** footer */
+
+footer{
+    background-color: #333;
+}
+
+.footer_div{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.footer_card{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}
